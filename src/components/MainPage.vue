@@ -1,14 +1,14 @@
 <template>
-  <div id="page">
-    <div id="main-container" @dblclick="openWindow">
-      <img src="@/assets/icons/docs.png" alt="Open Me" />
-      <span>open me</span>
+    <div id="page">
+      <div id="main-container" @dblclick="openWindow">
+        <img src="@/assets/icons/docs.png" alt="Open Me" />
+        <span>open me</span>
+      </div>
+      <Skills v-if="isSkillsOpen" :isWindowOpen="isSkillsOpen" @closeWindow="closeSkills" />
+      <AboutMe v-if="isAboutMeOpen" :isWindowOpen="isAboutMeOpen" @closeWindow="closeAboutMe" />
+      <MyLinks v-if="isMyLinksOpen" :isWindowOpen="isMyLinksOpen" @closeWindow="closeMyLinks" />
+      <OpenMe :isWindowOpen="isWindowOpen" @closeWindow="closeWindow" @openAboutMe="openAboutMe" @openSkills="openSkills" @openMyLinks="openMyLinks"/>
     </div>
-    <Skills v-if="isSkillsOpen" :isWindowOpen="isSkillsOpen" @closeWindow="closeSkills" />
-    <AboutMe v-if="isAboutMeOpen" :isWindowOpen="isAboutMeOpen" @closeWindow="closeAboutMe" />
-    <MyLinks v-if="isMyLinksOpen" :isWindowOpen="isMyLinksOpen" @closeWindow="closeMyLinks" />
-    <OpenMe :isWindowOpen="isWindowOpen" @closeWindow="closeWindow" @openAboutMe="openAboutMe" @openSkills="openSkills" @openMyLinks="openMyLinks"/>
-  </div>
 </template>
 
 <script>
