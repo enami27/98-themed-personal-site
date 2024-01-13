@@ -29,7 +29,7 @@
 
     methods: {
         closeWindow() {
-            this.isWindowOpen = false;
+          this.$emit('closeWindow');
         },
     },
   };
