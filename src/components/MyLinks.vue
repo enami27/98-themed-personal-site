@@ -13,7 +13,7 @@
         <div id = 'container'>
             <a href = "https://www.linkedin.com/in/imanebenyettou/" target = "_blank"><button>Linkedin</button></a>
             <a href = "https://github.com/enami27" target = "_blank"><button>Github</button></a>
-            <a><button>E-mail</button></a>
+            <a href="mailto:imanebenyettou27@gmail.com"><button>E-mail</button></a>
         </div>
         <button @click = "closeWindow">OK</button>
     </div>
