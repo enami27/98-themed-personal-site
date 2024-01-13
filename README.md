@@ -1,30 +1,7 @@
-# website_v2
+# Windows 98 styled personal website
 
-This template should help get you started developing with Vue 3 in Vite.
+Using 98.css, i was able to give my personal website the look of windows 98
 
-## Recommended IDE Setup
+## Approach
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# 98-themed-personal-site
+Using Vue.js, I was able to create Window components and double click interactions to mimic the look and feel of a real windows desktop.
