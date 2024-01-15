@@ -61,6 +61,20 @@ export default {
   left: 50%;
   transform: translate(-30%, -50%);
   z-index: 2;
+
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    max-width: 500px; 
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    width: 90%;
+    max-width: 500px; 
+    transform: translate(-50%, -50%);
+    left: 50%;
+  }
 }
 
 .window-body {
