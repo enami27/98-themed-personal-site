@@ -79,7 +79,7 @@ export default {
 
 #main-container {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
