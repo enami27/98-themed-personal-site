@@ -54,14 +54,14 @@
   @media screen and (max-width: 768px) {
     width: 90%;
     max-width: 500px; 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -200%);
     left: 50%;
   }
 
   @media screen and (min-width: 769px) and (max-width: 1024px) {
     width: 90%;
     max-width: 500px; 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -200%);
     left: 50%;
   }
 }
