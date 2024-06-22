@@ -11,9 +11,9 @@
     <div class="window-body">
         <p>My Links :</p>
         <div id = 'container'>
-            <a href = "https://www.linkedin.com/in/imanebenyettou/" target = "_blank"><button>Linkedin</button></a>
+            <a href = "https://www.behance.net/paradosed" target = "_blank"><button>Behance</button></a>
             <a href = "https://github.com/enami27" target = "_blank"><button>Github</button></a>
-            <a href="mailto:imanebenyettou27@gmail.com"><button>E-mail</button></a>
+            <a href="mailto:whoisimane27@gmail.com"><button>E-mail</button></a>
         </div>
         <button @click = "closeWindow">OK</button>
     </div>

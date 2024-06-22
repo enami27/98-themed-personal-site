@@ -11,7 +11,7 @@
     <div class="window-body">
         <div id = 'container'>
             <img src="@/assets/icons/info.png" alt="About me" />
-            <p>Aspiring visual designer and developer, always keen to learn about new technologies and creating compelling visual experiences ranging from 3D design to UX/UI. Weightlifter and fitness enthusiast.</p> 
+            <p>Freelance multidisciplinary designer and developer, always keen to learn about new technologies and creating compelling visual experiences ranging from 3D design to UX/UI. Weightlifter and fitness enthusiast.</p> 
         </div>
         <button @click = "closeWindow">OK</button>
     </div>
