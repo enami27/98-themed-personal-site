@@ -1,7 +1,7 @@
 <template>
     <div class="window" v-if="isWindowOpen" style="width: 500px">
     <div class="title-bar">
-        <div class="title-bar-text">Skills</div>
+        <div class="title-bar-text">Tools</div>
         <div class="title-bar-controls">
         <button aria-label="Minimize"></button>
         <button aria-label="Maximize"></button>
@@ -83,8 +83,8 @@
                 </fieldset>
                 <fieldset id = 'col'>
                   <div id = "icon-container">
-                    <img src = "@/assets/icons/react.png"/>
-                    <p>ReactJS</p>
+                    <img src = "@/assets/icons/vue.png"/>
+                    <p>VueJS</p>
                   </div>
                   <div id = "icon-container">
                     <img src = "@/assets/icons/javascript.png"/>
