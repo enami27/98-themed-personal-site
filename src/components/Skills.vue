@@ -12,7 +12,6 @@
         <div id = 'container'>
             <div id = "sub-container">
               <ul class="tree-view">
-                <li>Skill list</li>
                 <li>
                   3D Modelling
                   <ul>

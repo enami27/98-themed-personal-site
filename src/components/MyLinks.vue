@@ -11,7 +11,7 @@
     <div class="window-body">
         <p>My Links :</p>
         <div id = 'container'>
-            <a href = "https://www.behance.net/paradosed" target = "_blank"><button>Behance</button></a>
+            <a href = "https://contra.com/imanebe27?utm_campaign=social_sharing&utm_medium=independent_share&utm_source=copy_link" target = "_blank"><button>Behance</button></a>
             <a href = "https://github.com/enami27" target = "_blank"><button>Github</button></a>
             <a href="mailto:whoisimane27@gmail.com"><button>E-mail</button></a>
         </div>
